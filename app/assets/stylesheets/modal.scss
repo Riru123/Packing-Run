@@ -1,0 +1,16 @@
+.modal-body p {
+    text-align: center;
+
+}
+.modal-content {
+    border-top: none !important;
+    width: 100% !important;       /* 画面幅の60% */
+    border-radius: 30%;
+}
+
+.modal-header {
+    border-bottom: none!important;
+}
+.modal-footer {
+    border-top: none !important;
+}

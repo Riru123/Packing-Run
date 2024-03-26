@@ -1,0 +1,62 @@
+=> 
+[[32m#<Item:0x00007f848f2ada58[0m
+  id: [34m[1m23[0m,
+  title: [31m[1m"[0m[31m歯ブラシ[0m[31m[1m"[0m,
+  completed: [36m[1mtrue[0m,
+  created_at: Thu, 15 Feb 2024 20:55:42.574619000 UTC +00:00,
+  updated_at: Sun, 10 Mar 2024 16:48:13.387335000 UTC +00:00[32m>[0m,
+ [32m#<Item:0x00007f848efc3108[0m
+  id: [34m[1m24[0m,
+  title: [31m[1m"[0m[31mリンス[0m[31m[1m"[0m,
+  completed: [36m[1mtrue[0m,
+  created_at: Thu, 15 Feb 2024 20:55:50.403124000 UTC +00:00,
+  updated_at: Sun, 10 Mar 2024 16:48:12.089051000 UTC +00:00[32m>[0m,
+ [32m#<Item:0x00007f848efc3018[0m
+  id: [34m[1m25[0m,
+  title: [31m[1m"[0m[31mシャンプー[0m[31m[1m"[0m,
+  completed: [36m[1mtrue[0m,
+  created_at: Thu, 15 Feb 2024 20:55:57.831965000 UTC +00:00,
+  updated_at: Sun, 10 Mar 2024 16:48:11.344565000 UTC +00:00[32m>[0m,
+ [32m#<Item:0x00007f848efc2f50[0m
+  id: [34m[1m26[0m,
+  title: [31m[1m"[0m[31mヘアゴム[0m[31m[1m"[0m,
+  completed: [36m[1mtrue[0m,
+  created_at: Thu, 15 Feb 2024 20:56:10.042742000 UTC +00:00,
+  updated_at: Sun, 10 Mar 2024 17:47:35.235063000 UTC +00:00[32m>[0m,
+ [32m#<Item:0x00007f848efc2e10[0m
+  id: [34m[1m27[0m,
+  title: [31m[1m"[0m[31mメガネ[0m[31m[1m"[0m,
+  completed: [36m[1mtrue[0m,
+  created_at: Thu, 15 Feb 2024 21:31:44.501122000 UTC +00:00,
+  updated_at: Sun, 10 Mar 2024 17:47:33.222578000 UTC +00:00[32m>[0m,
+ [32m#<Item:0x00007f848efc2d48[0m
+  id: [34m[1m28[0m,
+  title: [31m[1m"[0m[31mメイク用品[0m[31m[1m"[0m,
+  completed: [36m[1mtrue[0m,
+  created_at: Fri, 16 Feb 2024 00:12:27.002884000 UTC +00:00,
+  updated_at: Sun, 10 Mar 2024 16:48:09.549194000 UTC +00:00[32m>[0m,
+ [32m#<Item:0x00007f848efc2c58[0m
+  id: [34m[1m29[0m,
+  title: [31m[1m"[0m[31mコンタクト[0m[31m[1m"[0m,
+  completed: [36m[1mtrue[0m,
+  created_at: Fri, 16 Feb 2024 21:54:28.549270000 UTC +00:00,
+  updated_at: Sun, 10 Mar 2024 16:48:09.171075000 UTC +00:00[32m>[0m,
+ [32m#<Item:0x00007f848efc2b68[0m
+  id: [34m[1m30[0m,
+  title: [31m[1m"[0m[31mティッシュ[0m[31m[1m"[0m,
+  completed: [36m[1mtrue[0m,
+  created_at: Mon, 19 Feb 2024 15:02:30.718790000 UTC +00:00,
+  updated_at: Sun, 10 Mar 2024 16:48:08.748655000 UTC +00:00[32m>[0m,
+ [32m#<Item:0x00007f848efc2a50[0m
+  id: [34m[1m31[0m,
+  title: [31m[1m"[0m[31mヘアゴム[0m[31m[1m"[0m,
+  completed: [36m[1mtrue[0m,
+  created_at: Mon, 19 Feb 2024 15:06:04.601768000 UTC +00:00,
+  updated_at: Sun, 10 Mar 2024 17:43:24.903529000 UTC +00:00[32m>[0m,
+ [32m#<Item:0x00007f848efc2988[0m
+  id: [34m[1m32[0m,
+  title: [31m[1m"[0m[31m爪やすり[0m[31m[1m"[0m,
+  completed: [36m[1mtrue[0m,
+  created_at: Mon, 19 Feb 2024 16:01:13.189208000 UTC +00:00,
+  updated_at: Sun, 10 Mar 2024 17:47:31.233009000 UTC +00:00[32m>[0m,
+ [31m[1m"[0m[31m...[0m[31m[1m"[0m]

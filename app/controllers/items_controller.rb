@@ -7,6 +7,7 @@ class ItemsController < ApplicationController
     @waiting_lists = @items.where(completed: false)
     @checked = @done_lists.count
     @percentage = (@checked.to_f / @itemcount * 100).round(1)
+    @human_gage = (310 * @percentage) / 100
   end
 
   def show
@@ -44,8 +45,9 @@ class ItemsController < ApplicationController
   def destroy
     @item = Item.find(params[:id])
     @item.destroy
-    redirect_to items_path, status: :see_other
+    redirect_to items_path, notice: 'アイテムが削除されました。'
   end
+  
 
   private
 

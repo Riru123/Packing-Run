@@ -1,0 +1,25 @@
+<div class="cards d-none" data-play-pause-target="cards">
+      <div class="item-button" data-controller="shuttle-next">
+        <% first_item = @waiting_lists.sort_by { |item| -item[:id] }.first %>
+        <% if first_item %>
+          <div class="item-title" data-shuttle-next-target="item" data-item-id="<%= first_item.id %>">
+            <%= first_item.title %>
+          </div>
+          <% @waiting_lists.sort_by { |item| -item[:id] }.drop(1).each do |item| %>
+            <div class="item-title d-none" data-shuttle-next-target="item" data-item-id="<%= item.id %>">
+              <%= item.title %>
+            </div>
+          <% end %>
+          <br>
+          <%= form_for(first_item, url: item_path(first_item), method: :patch, html: { class: "status-form", data: { target: "checked-list.form", action: "click->status-form#submit" } }) do |f| %>
+            <%= f.hidden_field :completed, value: true %> 
+            <%= f.button class: "btn btn-primary btn-lg done-button", id: "done-button" do %>
+              done
+            <% end %><!-- ボタンにクラスとIDを追加 -->
+          <% end %>
+
+        <% else %>
+          <p>🎉準備完了!🎉</p>
+        <% end %>
+      </div>
+    </div>

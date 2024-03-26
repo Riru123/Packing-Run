@@ -1,5 +1,3 @@
-// checked_list_controller.js
-
 import { Controller } from "@hotwired/stimulus"
 
 export default class extends Controller {
@@ -11,7 +9,6 @@ export default class extends Controller {
 
   submitForm() {
     this.formTarget.submit();
-    console.log("Hello")
   }
 }
 
