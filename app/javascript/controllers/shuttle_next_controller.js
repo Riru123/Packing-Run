@@ -10,6 +10,7 @@ export default class extends Controller {
       btn.addEventListener("click", this.submitForm.bind(this));
     });
     this.showCurrentItem();
+    this.synth = window.speechSynthesis;
   }
 
   nextItem() {
@@ -19,6 +20,14 @@ export default class extends Controller {
       this.indexValue = 0;
     }
     this.showCurrentItem();
+    this.speakItemTitle();
+  }
+
+  speakItemTitle() {
+    const currentItem = this.itemTargets[this.indexValue];
+    const title = currentItem.dataset.shuttleNextTarget;
+    const utterance = new SpeechSynthesisUtterance(title);
+    this.synth.speak(utterance);
   }
 
   showCurrentItem() {
@@ -30,5 +39,4 @@ export default class extends Controller {
       }
     });
   }
-
 }
